@@ -22,7 +22,7 @@ export const WorksCard = ({ item }: Props) => {
     <div
       data-aos="flip-left"
       data-aos-duration="1500"
-      className="group relative bg-body-bg2 rounded-[40px] p-5 hover:-translate-y-4 !duration-300 overflow-hidden"
+      className="group relative bg-body-bg2 rounded-[40px] p-5 hover:-translate-y-4 transition-transform duration-300 overflow-hidden"
     >
       <div className="rounded-[20px] overflow-hidden relative h-[220px]">
         <Image
