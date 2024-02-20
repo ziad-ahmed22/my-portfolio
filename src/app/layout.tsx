@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} bg-body-bg`}
+        className={`${poppins.className} bg-body-bg overflow-hidden`}
         suppressHydrationWarning
       >
         <AppWrapper>{children}</AppWrapper>

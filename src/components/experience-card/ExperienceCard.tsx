@@ -29,18 +29,18 @@ export const ExperienceCard = ({ item }: Props) => {
         <p className="font-medium text-base md:text-lg mb-6">{description}</p>
 
         <div className="flex flex-row gap-3 items-center justify-end">
-          <span className="bg-main2 text-white-text rounded-xl py-1 px-3 font-medium text-sm group-hover:bg-body-bg group-hover:text-main duration-300:">
+          <span className="bg-main2 text-white-text rounded-xl py-1 px-3 font-medium text-sm group-hover:bg-body-bg group-hover:text-main !duration-300:">
             {from}
           </span>
           <span className="text-main text-2xl">:</span>
-          <span className="bg-main2 text-white-text rounded-xl py-1 px-3 font-medium text-sm group-hover:bg-body-bg group-hover:text-main duration-300:">
+          <span className="bg-main2 text-white-text rounded-xl py-1 px-3 font-medium text-sm group-hover:bg-body-bg group-hover:text-main !duration-300:">
             {to}
           </span>
         </div>
       </div>
 
-      <div className="w-[5px] bg-white-text relative rounded-md hidden lg:flex group-hover:bg-main2 duration-300">
-        <SiNextdotjs className="w-9 h-9 p-[6px] bg-white-text text-main2 rounded-full flex-center absolute top-0 left-[50%] -translate-x-1/2 group-hover:bg-main group-hover:text-white-text duration-300" />
+      <div className="w-[5px] bg-white-text relative rounded-md hidden lg:flex group-hover:bg-main2 !duration-300">
+        <SiNextdotjs className="w-9 h-9 p-[6px] bg-white-text text-main2 rounded-full flex-center absolute top-0 left-[50%] -translate-x-1/2 group-hover:bg-main group-hover:text-white-text !duration-300" />
       </div>
     </div>
   );

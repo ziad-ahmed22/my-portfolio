@@ -11,7 +11,7 @@ import { Home } from "@/sections/home/Home";
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Element name="home">
         <Home />
       </Element>

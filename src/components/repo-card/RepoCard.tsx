@@ -8,7 +8,7 @@ export const RepoCard = ({ name, url }: Props) => {
     <div
       data-aos="zoom-in-up"
       data-aos-duration="1000"
-      className="bg-body-bg2 py-3 px-4 text-white-text flex-between gap-3 rounded-xl border-l-2 border-main hover:shadow hover:shadow-main duration-300"
+      className="bg-body-bg2 py-3 px-4 text-white-text flex-between gap-3 rounded-xl border-l-2 border-main hover:shadow hover:shadow-main !duration-300"
     >
       <span className="truncate font-semibold tracking-wide text-base">
         {name}
