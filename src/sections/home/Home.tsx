@@ -57,7 +57,7 @@ export const Home = () => {
                   key={skill.name}
                   className="cursor-pointer rounded-full bg-main px-2 text-[14px] font-medium border-2 border-main bg-opacity-60 hover:bg-opacity-100 duration-200"
                   to="skills"
-                  // offset={15}
+                  offset={2}
                   spy={true}
                   smooth={true}
                   duration={500}

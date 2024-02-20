@@ -62,7 +62,7 @@ export const Navbar = () => {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    // offset={15}
+                    offset={2}
                     activeClass="active"
                     onSetActive={handleSetActive}
                     className={`cursor-pointer py-[6px] px-3 rounded-xl font-medium text-lg hover:bg-main duration-100 ${
@@ -97,8 +97,8 @@ export const Navbar = () => {
                 to={path}
                 spy={true}
                 smooth={true}
-                duration={250}
-                // offset={15}
+                duration={500}
+                offset={2}
                 activeClass="active"
                 onSetActive={handleSetActive}
                 className={`cursor-pointer py-1 text-white-text rounded-lg border-2 border-white-text font-medium flex justify-center w-[100px] text-sm hover:bg-main duration-100 ${
