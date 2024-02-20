@@ -1,0 +1,8 @@
+.profile-img .shape {
+  background-image: linear-gradient(var(--main), 65%, rgba(0, 255, 4, 0.45));
+  border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+  -webkit-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+  -moz-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+  -ms-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+  -o-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+}
