@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <section className="py-20 md:py-32 overflow-hidden">
       <div className="container">
-        <Title title="𝓐𝓑𝓞𝓤𝓣 𝓜𝓔" />
+        <Title title="About Me" />
 
         <div className="flex justify-between items-center gap-5">
           <div

@@ -1,9 +1,9 @@
 "use client";
-import { navLinks } from "./navLinks";
+import { Link, Events, scrollSpy } from "react-scroll";
 import { MdOutlineClose } from "react-icons/md";
 import { RiMenu5Fill } from "react-icons/ri";
 import { useEffect, useState } from "react";
-import { Link, Events, scrollSpy } from "react-scroll";
+import { navLinks } from "./navLinks";
 
 export const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -45,7 +45,7 @@ export const Navbar = () => {
       >
         <div className="container">
           <div className="bg-body-bg2 p-[6px] text-white-text flex justify-between items-center rounded-xl mt-1 select-none">
-            <div className="text-main p-[6px] text-3xl font-bold tracking-widest">
+            <div className="font-heading text-main p-[6px] text-3xl font-bold tracking-widest">
               {"< Ⲍ⫯Ꭿᖱ />"}
             </div>
 

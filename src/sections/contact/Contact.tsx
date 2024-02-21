@@ -9,7 +9,7 @@ export const Contact = () => {
   return (
     <section className="py-20 md:py-32 overflow-hidden">
       <div className="container">
-        <Title title="𝓒𝓸𝓷𝓽𝓪𝓬𝓽 𝓜𝓮" />
+        <Title title="Contact Me" />
 
         <p
           data-aos="fade-down"

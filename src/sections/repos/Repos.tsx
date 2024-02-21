@@ -31,7 +31,7 @@ export const Repos = () => {
   return (
     <section className="py-20 md:py-32 overflow-hidden">
       <div className="container">
-        <Title title="𝓜𝔂 𝓡𝓮𝓹𝓸𝓼" />
+        <Title title="My Repos" />
 
         {!error ? (
           <div className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">

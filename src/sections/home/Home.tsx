@@ -26,11 +26,11 @@ export const Home = () => {
             data-aos-delay="200"
             className="text-white-text w-full lg:w-[60%] order-2 lg:order-1"
           >
-            <span className="text-main text-base md:text-xl font-semibold tracking-wide">
-              👋 𝓗𝓮𝓵𝓵𝓸 𝓣𝓱𝓮𝓻𝓮, 𝓘❜𝓶 👋
+            <span className="font-heading text-main text-base md:text-xl font-semibold tracking-wide">
+              👋 Hello There, I'm 👋
             </span>
 
-            <h1 className="font-extrabold mt-5 mb-5 lg:mb-10 tracking-wide text-xl md:text-5xl">
+            <h1 className="font-heading font-extrabold mt-5 mb-5 lg:mb-10 tracking-wide text-xl md:text-5xl">
               {name}
             </h1>
 
@@ -44,7 +44,7 @@ export const Home = () => {
               />
             </h2>
 
-            <p className="mb-10 text-lg md:text-xl tracking-wider !leading-8">
+            <p className="mb-10 text-base md:text-xl tracking-wide !leading-8">
               {description}
             </p>
 

@@ -1,5 +1,5 @@
 export const homeData = {
-  name: "𝓩𝓲𝓪𝓭 𝓐𝓱𝓶𝓮𝓭",
+  name: "Ziad Ahmed Mahmoud",
   title: "Frontend Web Developer",
   description:
     " Junior Frontend Developer. I can design modern, creative web pages, interactive user interfaces, animations, and sites that are responsive to all screens.",

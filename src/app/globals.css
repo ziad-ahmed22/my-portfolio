@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +15,11 @@
     --white-text: #c6d2e0;
     --white-text2: #eef6fe;
   }
+}
+
+/* Heading Font */
+.font-heading {
+  font-family: "Protest Revolution";
 }
 
 /* Helpers */

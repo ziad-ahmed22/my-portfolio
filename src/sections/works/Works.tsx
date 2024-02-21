@@ -28,7 +28,7 @@ export const Works = () => {
   return (
     <section className="py-20 md:py-32 overflow-hidden">
       <div className="container">
-        <Title title="𝓜𝔂 𝓦𝓸𝓻𝓴𝓼" />
+        <Title title="My Works" />
 
         <ul
           data-aos="fade-down"
