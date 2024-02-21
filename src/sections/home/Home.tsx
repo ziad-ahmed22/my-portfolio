@@ -71,7 +71,7 @@ export const Home = () => {
               <a
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
-                data-aos-delay="200"
+                // data-aos-delay="200"
                 href={`tel:${phone}`}
                 target="blank"
                 className="group bg-hover flex items-center gap-3 bg-main rounded-xl px-4 py-2 text-base md:text-lg font-medium"
@@ -83,7 +83,7 @@ export const Home = () => {
               <a
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
-                data-aos-delay="400"
+                // data-aos-delay="400"
                 href={cv}
                 target="blank"
                 className="group bg-hover flex items-center gap-3 bg-body-bg2 rounded-xl px-4 py-2 text-base md:text-lg font-medium"

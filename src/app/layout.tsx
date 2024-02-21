@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ziad AHmed Portfolio",
+  title: "Ziad Ahmed Portfolio",
   description: "Frontend Web Developer using React.js and Next.js",
 };
 
