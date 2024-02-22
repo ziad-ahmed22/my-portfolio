@@ -46,22 +46,20 @@ img {
 }
 
 ::-webkit-scrollbar {
-  width: 16px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--body-bg2);
-  border-radius: 5px;
-  box-shadow: 3.5px 0px 0.5px var(--white-text) inset,
-    -3.5px 0px 0.5px var(--white-text) inset;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--body-bg);
+  width: 11px;
 }
 
 ::-webkit-scrollbar-track {
+  background-color: var(--body-bg);
+}
+
+::-webkit-scrollbar-thumb {
   background-color: var(--white-text);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--white-text2);
 }
 
 /* Hover Background to an Element */
