@@ -45,7 +45,7 @@ export const Navbar = () => {
       >
         <div className="container">
           <div className="bg-body-bg2 p-[6px] text-white-text flex justify-between items-center rounded-xl mt-1 select-none">
-            <div className="font-heading text-main p-[6px] text-3xl font-bold tracking-widest">
+            <div className="font-heading text-main p-[7px] text-3xl font-bold tracking-widest">
               {"< Ⲍ⫯Ꭿᖱ />"}
             </div>
 

@@ -17,6 +17,7 @@ import { Navbar } from "@/components/navbar/Navbar";
 import { Footer } from "@/components/footer/Footer";
 import { Social } from "@/components/social/Social";
 import { Hi } from "@/components/hi/Hi";
+import { BackShape } from "../back-shape/BackShape";
 
 export default function AppWrapper({
   children,
@@ -59,6 +60,7 @@ export default function AppWrapper({
         <Social />
         <Scroller />
         <BgShape />
+        <BackShape />
 
         <VideoModal />
         <DetailsModal />

@@ -69,6 +69,7 @@ const config: Config = {
         "move-up-right": "move-up-right 0.6s infinite",
         "move-up-down": "move-up-down 0.6s infinite",
         move: "move 8s linear infinite",
+        "move-up": "move 20s linear infinite",
         rotate: "rotate 25s linear infinite",
         rotate2: "rotate 50s linear infinite",
         "show-nav": "show-nav .5s ease-out",
