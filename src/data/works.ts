@@ -17,6 +17,9 @@ import randomKeyImg from "@/assets/images/works/randomKeyGen.png";
 import sliderImg from "@/assets/images/works/slider.png";
 import template2Img from "@/assets/images/works/templateTwo.png";
 import eventImg from "@/assets/images/works/celebration.png";
+import flexGalleryImg from "@/assets/images/works/flexGallery.png";
+import currencyConverterImg from "@/assets/images/works/currencyConverter.png";
+import pallateColorImg from "@/assets/images/works/pallateColor.png";
 
 export const myWorks = [
   {
@@ -25,7 +28,7 @@ export const myWorks = [
     image: unimack,
     demo_url: "https://unimackpharma.vercel.app",
     video_url: "https://www.youtube.com/watch?v=5iVHMC7vqPg&t=4s",
-    skills: ["Next", "Tailwind", "Email.js", "aos"],
+    skills: ["Next", "Tailwind", "Email.js", "AOS", "Swiper"],
     type: "next",
     details: [
       `Developed a Unimackpharma website using Tailwind and Next.js`,
@@ -37,7 +40,7 @@ export const myWorks = [
     title: "Nplanet Official",
     image: nplanet,
     video_url: "https://www.youtube.com/watch?v=2XtpSmDYc5g&t=52s",
-    skills: ["Next", "Bootstrap", "MUI", "Sass"],
+    skills: ["Next", "Bootstrap", "MUI", "Sass", "Swiper"],
     type: "next",
     details: [`Developed the Official Website for NPlanet.`],
   },
@@ -87,7 +90,7 @@ export const myWorks = [
     image: ecommerceImg,
     repo_url: "https://github.com/ziad-ahmed22/E-Commerce-React-App",
     demo_url: "https://ziad-ahmed22.github.io/E-Commerce-React-App/",
-    skills: ["React", "Css", "React Bootstrap", "Redux Toolkit"],
+    skills: ["React", "Css", "React Bootstrap", "Redux Toolkit", "RTK Query"],
     type: "react",
     details: [
       `E-Commerce application is built on a tech stack to deliver a seamless and visually appealing user experience. Leveraging React, the single-page architecture ensures a swift and dynamic interface, complemented by reusable components for consistency throughout the app. Redux Toolkit takes charge of state management, guaranteeing a smooth flow of data. RTK Query is employed for intelligent data caching, optimizing performance and minimizing load times. The responsive and user-friendly design is achieved through Bootstrap.`,
@@ -99,7 +102,7 @@ export const myWorks = [
     image: moviesImg,
     repo_url: "https://github.com/ziad-ahmed22/Movies-React-App",
     demo_url: "https://ziad-ahmed22.github.io/Movies-React-App/",
-    skills: ["React", "Css", "React Bootstrap", "Redux Toolkit"],
+    skills: ["React", "Css", "React Bootstrap", "Redux Toolkit", "Redux Thunk"],
     type: "react",
     details: [
       `Movies App, using React for reusable components and a sophisticated single-page architecture. Redux Toolkit ensures a seamless state management, providing a responsive and dynamic interface for an movie exploration. Bootstrap brings elegance to the UI, ensuring a visually appealing experience on various devices.`,
@@ -254,5 +257,32 @@ export const myWorks = [
     skills: ["Html", "Css", "Javascript"],
     type: "js",
     details: [`count down timer with an awesome background image.`],
+  },
+  {
+    id: 20,
+    title: "Flex Gallery",
+    image: flexGalleryImg,
+    repo_url: "https://github.com/ziad-ahmed22/Flex-Gallery",
+    demo_url: "https://ziad-ahmed22.github.io/Flex-Gallery/",
+    skills: ["Html", "Css", "Javascript"],
+    type: "js",
+  },
+  {
+    id: 21,
+    title: "Currency Converter",
+    image: currencyConverterImg,
+    repo_url: "https://github.com/ziad-ahmed22/Currency-Converter",
+    demo_url: "https://ziad-ahmed22.github.io/Currency-Converter/",
+    skills: ["Html", "Css", "Javascript", "API"],
+    type: "js",
+  },
+  {
+    id: 22,
+    title: "Random Pallate Color",
+    image: pallateColorImg,
+    repo_url: "https://github.com/ziad-ahmed22/Random-Pallate-Color",
+    demo_url: "https://ziad-ahmed22.github.io/Random-Pallate-Color/",
+    skills: ["Html", "Css", "Javascript"],
+    type: "js",
   },
 ];
