@@ -4,7 +4,7 @@ export const aboutMeData = [
     delay: 200,
   },
   {
-    text: "In September 2021, I graduated from the Faculty of Information Technology at the Egyptian E-Learning University (EELU).",
+    text: "In May 2021, I graduated from the Faculty of Information Technology (EELU) at Assiut University.",
     delay: 300,
   },
   {

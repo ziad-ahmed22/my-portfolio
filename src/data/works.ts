@@ -24,19 +24,6 @@ import pallateColorImg from "@/assets/images/works/pallateColor.png";
 export const myWorks = [
   {
     id: 1,
-    title: "Unimack",
-    image: unimack,
-    demo_url: "https://unimackpharma.vercel.app",
-    video_url: "https://www.youtube.com/watch?v=5iVHMC7vqPg&t=4s",
-    skills: ["Next", "Tailwind", "Email.js", "AOS", "Swiper"],
-    type: "next",
-    details: [
-      `Developed a Unimackpharma website using Tailwind and Next.js`,
-      `Implementing Higher Order Components for enhanced functionality and maintain the scalability.`,
-    ],
-  },
-  {
-    id: 2,
     title: "Nplanet Official",
     image: nplanet,
     video_url: "https://www.youtube.com/watch?v=2XtpSmDYc5g&t=52s",
@@ -45,7 +32,7 @@ export const myWorks = [
     details: [`Developed the Official Website for NPlanet.`],
   },
   {
-    id: 3,
+    id: 2,
     title: "Talmeeh",
     image: talmeeh,
     demo_url: "https://talmee7.nplanet.org",
@@ -65,6 +52,19 @@ export const myWorks = [
       `Implemented responsive and interactive user interfaces using, Sass, Bootstrap, and Material-UI to ensure a seamless user experience through thoughtful design and styling of components.`,
       `Integrated Redux Toolkit with Redux Saga middleware for state management and asynchronous API requests.`,
       `Gained valuable experience working collaboratively in a team environment`,
+    ],
+  },
+  {
+    id: 3,
+    title: "Unimack",
+    image: unimack,
+    demo_url: "https://unimackpharma.vercel.app",
+    video_url: "https://www.youtube.com/watch?v=5iVHMC7vqPg&t=4s",
+    skills: ["Next", "Tailwind", "Email.js", "AOS", "Swiper"],
+    type: "next",
+    details: [
+      `Developed a Unimackpharma website using Tailwind and Next.js`,
+      `Implementing Higher Order Components for enhanced functionality and maintain the scalability.`,
     ],
   },
   {

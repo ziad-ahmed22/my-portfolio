@@ -1,7 +1,9 @@
 import { ExperienceCard as ExperienceCardTypes } from "@/types/types";
 
 import { IoLocationSharp } from "react-icons/io5";
-import { SiNextdotjs } from "react-icons/si";
+import { TbNetwork } from "react-icons/tb";
+// import { SiNextdotjs } from "react-icons/si";
+// import { SiTinder } from "react-icons/si";
 
 type Props = {
   item: ExperienceCardTypes;
@@ -40,7 +42,7 @@ export const ExperienceCard = ({ item }: Props) => {
       </div>
 
       <div className="w-[5px] bg-white-text relative rounded-md hidden lg:flex group-hover:bg-main2 !duration-300">
-        <SiNextdotjs className="w-9 h-9 p-[6px] bg-white-text text-main2 rounded-full flex-center absolute top-0 left-[50%] -translate-x-1/2 group-hover:bg-main group-hover:text-white-text !duration-300" />
+        <TbNetwork className="w-9 h-9 p-[6px] bg-white-text text-main2 rounded-full flex-center absolute top-0 left-[50%] -translate-x-1/2 group-hover:bg-main group-hover:text-white-text !duration-300" />
       </div>
     </div>
   );
