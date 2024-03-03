@@ -15,5 +15,5 @@ export const homeData = {
     { name: "Github", delay: 1600 },
   ],
   phone: "01145814339",
-  cv: "https://1drv.ms/b/s!Ar0OmrXFRr-JhNxeeMvQRd4cLtY4CQ?e=WDzTDg",
+  cv: "https://1drv.ms/b/s!Ar0OmrXFRr-JhN0Aa_60D_2xVFu8_Q?e=gyRtHc",
 };
