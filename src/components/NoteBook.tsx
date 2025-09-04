@@ -1,5 +1,5 @@
 import { GiBurningDot } from "react-icons/gi";
-import "./notebook.css";
+import "@/styles/notebook.css";
 
 type Props = {
   data: { text: string; delay: number }[];

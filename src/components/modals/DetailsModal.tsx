@@ -1,12 +1,12 @@
 "use client";
-import { BsBrowserEdge } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 
-import { useDetailsModal } from "@/context/DetailsContext";
-import { WithModal } from "../with-modal/WithModal";
+import { WithModal } from "@/components/modals/WithModal";
+import { useDetails } from "@/hooks/useDetails";
+import { GiCheckMark } from "react-icons/gi";
 
 export const DetailsModal = () => {
-  const { isOpen, closeModal, details } = useDetailsModal();
+  const { isOpen, closeModal, details } = useDetails();
 
   if (!isOpen) return null;
 
@@ -28,7 +28,7 @@ export const DetailsModal = () => {
                   key={idx}
                   className="text-white-text text-sm text-justify sm:text-start md:text-base tracking-wide !leading-8 font-semibold mb-4 last-of-type:mb-0"
                 >
-                  <BsBrowserEdge className="inline-block text-main text-2xl me-3" />
+                  <GiCheckMark className="inline-block text-main text-xl me-3" />
                   {item}
                 </p>
               ))}

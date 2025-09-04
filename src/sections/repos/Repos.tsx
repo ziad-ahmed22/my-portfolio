@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { RepoCard } from "@/components/repo-card/RepoCard";
-import { Title } from "@/components/title/Title";
-import { Rebo } from "@/types/types";
+import { RepoCard } from "@/components/cards/RepoCard";
+import { Title } from "@/components/Title";
+import { ReboType } from "@/types/types";
 
 export const Repos = () => {
   const url = "https://api.github.com/users/ziad-ahmed22/repos";
@@ -35,7 +35,7 @@ export const Repos = () => {
 
         {!error ? (
           <div className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
-            {data?.map(({ id, name, html_url }: Rebo) => (
+            {data?.map(({ id, name, html_url }: ReboType) => (
               <RepoCard name={name} url={html_url} key={id} />
             ))}
           </div>

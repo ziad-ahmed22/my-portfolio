@@ -1,5 +1,5 @@
-import { SkillsCard } from "@/components/skills-card/SkillsCard";
-import { Title } from "@/components/title/Title";
+import { SkillsCard } from "@/components/cards/SkillsCard";
+import { Title } from "@/components/Title";
 import { mySkills } from "@/data/skills";
 
 export const Skills = () => {

@@ -19,8 +19,8 @@ export const ContactInfo = () => {
         <a
           key={idx}
           href={link}
-          target="blank"
-          className="lg:bg-opacity-70 bg-hover2 bg-body-bg2 text-white-text border border-white-text flex flex-col items-center gap-5 rounded-xl p-6 tracking-wide relative overflow-hidden z-20 "
+          target="_blank"
+          className="lg:bg-opacity-70 bg-hover2 bg-body-bg2 text-white-text font-medium border border-white-text flex flex-col items-center gap-5 rounded-xl p-6 tracking-wide relative overflow-hidden z-20 "
         >
           {icon}
           <span>{name}</span>

@@ -1,12 +1,10 @@
-import { ExperienceCard as ExperienceCardTypes } from "@/types/types";
+import { ExperienceCardType } from "@/types/types";
 
 import { IoLocationSharp } from "react-icons/io5";
 import { TbNetwork } from "react-icons/tb";
-// import { SiNextdotjs } from "react-icons/si";
-// import { SiTinder } from "react-icons/si";
 
 type Props = {
-  item: ExperienceCardTypes;
+  item: ExperienceCardType;
 };
 
 export const ExperienceCard = ({ item }: Props) => {
@@ -19,16 +17,18 @@ export const ExperienceCard = ({ item }: Props) => {
       className="group w-full lg:w-1/2 flex flex-row justify-start gap-8 even:ms-auto even:flex-row-reverse even:justify-end"
     >
       <div className="relative bg-body-bg2 rounded-2xl p-5 text-white-text tracking-wide flex-1">
-        <h2 className="mb-5 text-main text-xl font-semibold flex items-center gap-2">
+        <h2 className="mb-5 text-main text-lg md:text-xl font-semibold flex items-center gap-2">
           <IoLocationSharp className="text-main text-2xl" />
           {location}
         </h2>
 
-        <h3 className="font-semibold text-lg md:text-xl mb-3 md:mb-4">
+        <h3 className="font-semibold text-base sm:text-lg md:text-xl mb-3 md:mb-4">
           {title}
         </h3>
 
-        <p className="font-medium text-base md:text-lg mb-6">{description}</p>
+        <p className="font-medium text-sm sm:text-base md:text-lg mb-6">
+          {description}
+        </p>
 
         <div className="flex flex-row gap-3 items-center justify-end">
           <span className="bg-main2 text-white-text rounded-xl py-1 px-3 font-medium text-sm group-hover:bg-body-bg group-hover:text-main !duration-300:">

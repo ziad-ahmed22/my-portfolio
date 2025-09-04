@@ -3,8 +3,8 @@ import toast from "react-hot-toast";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 
-import { ContactData } from "@/types/types";
-import { Spinner } from "../spinner/Spinner";
+import { ContactDataType } from "@/types/types";
+import { Spinner } from "@/components/Spinner";
 import {
   API_PUPLIC_KEY,
   SERVICE_ID,
@@ -14,7 +14,7 @@ import {
 } from "./formData";
 
 export const ContactForm = () => {
-  const [data, setData] = useState<ContactData>(emptyObj);
+  const [data, setData] = useState<ContactDataType>(emptyObj);
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e: any) => {
@@ -22,7 +22,7 @@ export const ContactForm = () => {
   };
 
   const form_data = {
-    from_name: data.name,
+    form_name: data.name,
     form_email: data.email,
     form_phone: data.phone,
     form_message: data.msg,
@@ -32,11 +32,12 @@ export const ContactForm = () => {
     setLoading(true);
     await emailjs.send(SERVICE_ID, TEMPLATE_ID, form_data, API_PUPLIC_KEY).then(
       (response) => {
-        toast.success("Email Sent Succefully");
+        toast.success("Email sent successfully");
         setData(emptyObj);
       },
       (error) => {
-        toast.error("Error! Email Not Send");
+        console.log({ error });
+        toast.error("Failed to send email. Please try again.");
       }
     );
     setLoading(false);

@@ -1,15 +1,15 @@
-import { createContext, useContext, useState } from "react";
-import { VideoContext } from "@/types/types";
+import { createContext, ReactNode, useState } from "react";
+import { VideoContextType } from "@/types/types";
 
-const VideoContext = createContext<VideoContext>({} as VideoContext);
+export const VideoContext = createContext<VideoContextType>(
+  {} as VideoContextType
+);
 
-export const useVideoModal = () => useContext(VideoContext);
+type Props = {
+  children: ReactNode;
+};
 
-export const VideoProvider = ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => {
+export const VideoProvider = ({ children }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [videoSrc, setVideoSrc] = useState("");
 

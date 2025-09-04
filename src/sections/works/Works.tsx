@@ -1,23 +1,24 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { WorksCard } from "@/components/works-card/WorksCard";
-import { Title } from "@/components/title/Title";
-import { WorkCard } from "@/types/types";
+import { WorksCard } from "@/components/cards/WorksCard";
+import { Title } from "@/components/Title";
+import { WorkCardType } from "@/types/types";
 import { myWorks } from "@/data/works";
-import { catItems } from "./catItems";
+
+const catItems = [
+  { name: "Frontend", cat: "frontend" },
+  { name: "Mobile", cat: "mobile" },
+  { name: "Backend", cat: "backend" },
+];
 
 export const Works = () => {
-  const [data, setData] = useState<WorkCard[]>(myWorks);
-  const [cat, setCat] = useState("all");
-  const [activeCat, setActiveCat] = useState("all");
+  const [data, setData] = useState<WorkCardType[]>(myWorks);
+  const [cat, setCat] = useState("frontend");
+  const [activeCat, setActiveCat] = useState("frontend");
 
   useEffect(() => {
-    if (cat === "all") {
-      setData(myWorks);
-    } else {
-      setData(myWorks.filter((item) => item.type === cat));
-    }
+    setData(myWorks.filter((item) => item.type === cat));
   }, [cat]);
 
   const handleCatClick = (e: any) => {

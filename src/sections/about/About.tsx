@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 import aboutMeImg from "@/assets/images/shapes/aboutme.svg";
-import { NoteBook } from "@/components/notebook/NoteBook";
-import { Title } from "@/components/title/Title";
+import { NoteBook } from "@/components/NoteBook";
+import { Title } from "@/components/Title";
 import { aboutMeData } from "@/data/about";
 
 export const About = () => {
