@@ -1,5 +1,5 @@
-import bgshape from "@/assets/images/shapes/bgshape.svg";
 import Image from "next/image";
+import bgshape from "@/assets/images/shapes/bgshape.svg";
 
 export const BgShape = () => {
   return (

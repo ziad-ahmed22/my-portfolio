@@ -3,7 +3,16 @@ import { Link, Events, scrollSpy } from "react-scroll";
 import { MdOutlineClose } from "react-icons/md";
 import { RiMenu5Fill } from "react-icons/ri";
 import { useEffect, useState } from "react";
-import { navLinks } from "./navLinks";
+
+const navLinks = [
+  { path: "home", body: "Home", delay: 200 },
+  // { path: "about", body: "About", delay: 400 },
+  { path: "experience", body: "Experience", delay: 400 },
+  { path: "skills", body: "Skills", delay: 500 },
+  { path: "works", body: "Works", delay: 800 },
+  { path: "repos", body: "Repos", delay: 1000 },
+  { path: "contact", body: "Contact", delay: 1200 },
+];
 
 export const Navbar = () => {
   const [showNav, setShowNav] = useState(false);

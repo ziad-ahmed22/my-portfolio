@@ -8,16 +8,16 @@ import AOS from "aos";
 import { DetailsProvider } from "@/context/DetailsContext";
 import { VideoProvider } from "@/context/VideoContext";
 
-import { DetailsModal } from "@/components/details-modal/DetailsModal";
-import { VideoModal } from "@/components/video-modal/VideoModal";
-import { PreLoader } from "@/components/preloader/Preloader";
-import { Scroller } from "@/components/scroller/Scroller";
-import { BgShape } from "@/components/bg-shape/BgShape";
-import { Navbar } from "@/components/navbar/Navbar";
-import { Footer } from "@/components/footer/Footer";
-import { Social } from "@/components/social/Social";
-import { Hi } from "@/components/hi/Hi";
-import { BackShape } from "../back-shape/BackShape";
+import { DetailsModal } from "@/components/modals/DetailsModal";
+import { VideoModal } from "@/components/modals/VideoModal";
+import { BackShape } from "@/components/shapes/BackShape";
+import { BgShape } from "@/components/shapes/BgShape";
+import { Footer } from "@/components/layout/Footer";
+import { Navbar } from "@/components/layout/Navbar";
+import { PreLoader } from "@/components/Preloader";
+import { Scroller } from "@/components/Scroller";
+import { Social } from "@/components/Social";
+import { Hi } from "@/components/Hi";
 
 export default function AppWrapper({
   children,

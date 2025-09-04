@@ -4,17 +4,17 @@ import { IoMdEye } from "react-icons/io";
 import { Tooltip } from "react-tooltip";
 import Image from "next/image";
 
-import { useDetailsModal } from "@/context/DetailsContext";
-import { useVideoModal } from "@/context/VideoContext";
-import { WorkCard } from "@/types/types";
+import { WorkCardType } from "@/types/types";
+import { useVideo } from "@/hooks/useVideo";
+import { useDetails } from "@/hooks/useDetails";
 
 type Props = {
-  item: WorkCard;
+  item: WorkCardType;
 };
 
 export const WorksCard = ({ item }: Props) => {
-  const { openModal } = useVideoModal();
-  const { openModal: openDetailsModal } = useDetailsModal();
+  const { openModal } = useVideo();
+  const { openModal: openDetailsModal } = useDetails();
   const { id, title, image, demo_url, repo_url, video_url, skills, details } =
     item;
 

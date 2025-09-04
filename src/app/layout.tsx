@@ -1,7 +1,7 @@
-import AppWrapper from "@/components/app-wrapper/AppWrapper";
+import AppWrapper from "@/components/layout/AppWrapper";
 import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/styles/globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],

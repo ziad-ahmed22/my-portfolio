@@ -6,7 +6,6 @@ import { Contact } from "@/sections/contact/Contact";
 import { Skills } from "@/sections/skills/Skills";
 import { Repos } from "@/sections/repos/Repos";
 import { Works } from "@/sections/works/Works";
-import { About } from "@/sections/about/About";
 import { Home } from "@/sections/home/Home";
 
 export default function HomePage() {
@@ -16,9 +15,9 @@ export default function HomePage() {
         <Home />
       </Element>
 
-      <Element name="about">
+      {/* <Element name="about">
         <About />
-      </Element>
+      </Element> */}
 
       <Element name="experience">
         <Experience />

@@ -1,15 +1,15 @@
-import { createContext, useContext, useState } from "react";
-import { DetailsContext } from "@/types/types";
+import { createContext, ReactNode, useState } from "react";
+import { DetailsContextType } from "@/types/types";
 
-const DetailsContext = createContext<DetailsContext>({} as DetailsContext);
+export const DetailsContext = createContext<DetailsContextType>(
+  {} as DetailsContextType
+);
 
-export const useDetailsModal = () => useContext(DetailsContext);
+type Props = {
+  children: ReactNode;
+};
 
-export const DetailsProvider = ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => {
+export const DetailsProvider = ({ children }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [details, setDetails] = useState<string[]>([]);
 

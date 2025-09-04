@@ -1,18 +1,18 @@
-export type DetailsContext = {
+export type DetailsContextType = {
   isOpen: boolean;
   openModal: (val: string[]) => void;
   closeModal: () => void;
   details: string[];
 };
 
-export type VideoContext = {
+export type VideoContextType = {
   isOpen: boolean;
   openModal: (val: string) => void;
   closeModal: () => void;
   videoSrc: string;
 };
 
-export type ContactData = {
+export type ContactDataType = {
   name: string;
   email: string;
   phone: string;
@@ -20,19 +20,19 @@ export type ContactData = {
   [key: string]: string;
 };
 
-export type WorkCard = {
-  id: number;
+export type WorkCardType = {
+  id: string;
   title: string;
   image: any;
+  type: "frontend" | "backend" | "mobile";
+  skills: string[];
   demo_url?: string;
   repo_url?: string;
   video_url?: string;
-  skills: string[];
-  type: string;
   details?: string[];
 };
 
-export type ExperienceCard = {
+export type ExperienceCardType = {
   from: string;
   to: string;
   title: string;
@@ -41,7 +41,7 @@ export type ExperienceCard = {
   reverse?: boolean;
 };
 
-export type Rebo = {
+export type ReboType = {
   id: number;
   name: string;
   html_url: string;

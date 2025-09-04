@@ -26,6 +26,8 @@ export let emptyObj = {
   msg: "",
 };
 
-export const SERVICE_ID = "ziad22ahmed22";
-export const TEMPLATE_ID = "template_1j2gaei";
-export const API_PUPLIC_KEY = "USS-83SitkM91QZe2";
+export const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "test";
+export const TEMPLATE_ID =
+  process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "test";
+export const API_PUPLIC_KEY =
+  process.env.NEXT_PUBLIC_EMAILJS_API_PUPLIC_KEY || "test";

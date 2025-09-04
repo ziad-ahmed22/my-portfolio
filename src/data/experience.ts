@@ -1,34 +1,35 @@
 export const myExperience = [
   {
-    from: "Aug 2023",
-    to: "PRESENT",
-    title: `Frontend Developer | React | Next`,
-    location: "Nplanet",
-    description: "Working as a frontend web developer at Nplanet",
+    from: "March 2024",
+    to: "Present",
+    title: "Frontend and Mobile Developer",
+    location: "Bee Interactive",
+    description:
+      "Currently working as a Frontend Developer, specializing in React.js and building mobile applications with React Native.",
   },
   {
-    from: "July 2023",
-    to: "July 2023",
-    title: `Frontend Developer | Next`,
-    location: "Freelancer",
+    from: "Aug 2023",
+    to: "Dec 2023",
+    title: "Frontend Developer Intern",
+    location: "Nplanet",
     description:
-      "I work as a freelancer, focusing on frontend web development with Next.js.",
+      "Completed an internship as a Frontend Web Developer, gaining practical experience with React.js and Next.js.",
     reverse: true,
   },
   {
     from: "July 2021",
     to: "Aug 2021",
-    title: `Frontend Internship | Angular`,
-    location: "Information Technology Institute",
+    title: "Frontend Intern | Angular",
+    location: "Information Technology Institute (ITI)",
     description:
-      "Participated in a comprehensive 1-month training program as a frontend web developer at ITI",
+      "Participated in a comprehensive 1-month training program focused on frontend web development at ITI.",
   },
   {
     from: "Sep 2017",
     to: "May 2021",
-    title: `Student`,
+    title: "Student",
     location: "EELU at Assiut University",
-    description: "Bachelor of Computer and Information Technology",
+    description: "Pursued a Bachelor of Computer and Information Technology.",
     reverse: true,
   },
 ];

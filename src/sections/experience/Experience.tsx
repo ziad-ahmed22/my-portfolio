@@ -1,5 +1,5 @@
-import { ExperienceCard } from "@/components/experience-card/ExperienceCard";
-import { Title } from "@/components/title/Title";
+import { ExperienceCard } from "@/components/cards/ExperienceCard";
+import { Title } from "@/components/Title";
 import { myExperience } from "@/data/experience";
 
 export const Experience = () => {

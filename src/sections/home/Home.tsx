@@ -1,4 +1,3 @@
-"use client";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { Typewriter } from "react-simple-typewriter";
 import { FaDownload } from "react-icons/fa";
@@ -8,10 +7,10 @@ import Image from "next/image";
 import profileImgMobile from "@/assets/images/profile/ziad1.webp";
 import profileImgPc from "@/assets/images/profile/ziad4.webp";
 import { homeData } from "@/data/home";
-import "./home.css";
+import "@/styles/home.css";
 
 export const Home = () => {
-  const { name, title, description, skills, phone, cv } = homeData;
+  const { name, title, description, skills, words, phone, cv } = homeData;
 
   return (
     <section className="min-h-screen relative pt-[100px] sm:pt-[140px] mb-10 lg:mb-0 overflow-hidden">
@@ -26,25 +25,25 @@ export const Home = () => {
             data-aos-delay="200"
             className="text-white-text w-full lg:w-[60%] order-2 lg:order-1"
           >
-            <span className="font-heading text-main text-base md:text-xl font-semibold tracking-wide">
-              👋 Hello There, I'm 👋
+            <span className="font-heading text-main text-base md:text-lg font-semibold tracking-wide">
+              Hello There 👋
             </span>
 
-            <h1 className="font-heading font-extrabold mt-5 mb-5 lg:mb-10 tracking-wide text-xl md:text-5xl">
-              {name}
+            <h1 className="font-heading font-extrabold mt-5 mb-5 lg:mb-10 tracking-wide text-lg md:text-4xl">
+              <span className="text-md md:text-2xl text-main">I'm</span> {name}
             </h1>
 
-            <h2 className="font-semibold mb-5 lg:mb-10 tracking-wide text-lg md:text-3xl">
+            <h2 className="font-semibold mb-5 lg:mb-5 tracking-wide text-[15px] sm:text-md md:text-2xl">
               {title}{" "}
               <Typewriter
-                words={["React Js", "Next Js"]}
+                words={words}
                 loop
                 cursor
                 cursorStyle={<span className="text-main">|</span>}
               />
             </h2>
 
-            <p className="mb-10 text-base md:text-xl tracking-wide !leading-8">
+            <p className="mb-10 text-white text-sm sm:text-base md:text-lg tracking-wide !leading-8">
               {description}
             </p>
 
@@ -55,8 +54,8 @@ export const Home = () => {
                   data-aos-duration="1500"
                   data-aos-delay={skill.delay}
                   key={skill.name}
-                  className="cursor-pointer rounded-full bg-main px-2 text-[14px] font-medium border-2 border-main bg-opacity-60 hover:bg-opacity-100 duration-200"
-                  to="skills"
+                  className="rounded-full bg-main px-2 text-[14px] font-medium border-2 border-main bg-opacity-60 hover:bg-opacity-100 duration-200"
+                  to="#"
                   // offset={10}
                   spy={true}
                   smooth={true}

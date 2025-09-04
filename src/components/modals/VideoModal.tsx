@@ -3,11 +3,11 @@ import { IoClose } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import toast from "react-hot-toast";
 
-import { useVideoModal } from "@/context/VideoContext";
-import { WithModal } from "../with-modal/WithModal";
+import { WithModal } from "@/components/modals/WithModal";
+import { useVideo } from "@/hooks/useVideo";
 
 export const VideoModal = () => {
-  const { isOpen, closeModal, videoSrc } = useVideoModal();
+  const { isOpen, closeModal, videoSrc } = useVideo();
 
   const handleError = () => {
     toast.error("Sorry! Something Went Wrong");

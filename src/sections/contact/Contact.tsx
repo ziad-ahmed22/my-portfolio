@@ -1,9 +1,10 @@
 import Image from "next/image";
 
+import { ContactInfo } from "@/sections/contact/ContactInfo";
+import { ContactForm } from "@/sections/contact/ContactForm";
+import { Title } from "@/components/Title";
+
 import planet from "@/assets/images/shapes/planet.png";
-import { ContactInfo } from "@/components/contact-info/ContactInfo";
-import { ContactForm } from "@/components/contact-form/ContactForm";
-import { Title } from "@/components/title/Title";
 
 export const Contact = () => {
   return (

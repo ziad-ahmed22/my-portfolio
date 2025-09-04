@@ -15,7 +15,7 @@ export const SkillsCard = ({ item }: Props) => {
         {icon}
       </div>
 
-      <h3 className="text-white-text font-semibold text-md sm:text-lg tracking-wide text-center group-hover:scale-110 duration-300">
+      <h3 className="text-white-text font-semibold text-base sm:text-md md:text-lg tracking-wide text-center group-hover:scale-110 duration-300">
         {name}
       </h3>
     </div>
